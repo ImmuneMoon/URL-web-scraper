@@ -15,9 +15,9 @@ function scrape() {
         const $ = cheerio.load(html);
         console.log(html);
 
-        $('a').each((_idx, el) => {
-            const url = $(el).text()
-            links.push(url)
+        $('a').each((_idx, value) => {
+            let url = $(value).attr('href');
+            links.push(url);
         });
     
         return links;
