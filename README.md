@@ -27,6 +27,7 @@ Users should be able to:
 - Custom JS scripts
 - [Cheerio](https://cheerio.js.org/) - JS Library
 - [Axios](https://axios-http.com/) - HTTP client
+- [Webpack](https://webpack.js.org/) - JS Bundler
 
 ## Author
 
