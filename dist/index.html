@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="URL scraper for AI Time internship program">
+        <meta name="author" content="Alex Page">
+        <link rel="icon" href="./Images/dev_window.ico" />
+        <title>URL Scraper by Alex Page</title>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="_bundle.js"></script>
+    </head>
+    <body>
+        <main>
+            <section id="form">
+                <form>
+                    <h1>
+                        Web Page URL Scraper
+                    </h1>
+                    <div id="input_container">
+                        <label for="url">
+                            URL:
+                        </label>
+                        <input 
+                        required
+                        type="text" 
+                        id="url"  
+                        minlength=1 
+                        maxlength=50 
+                        placeholder="Insert webpage link here"
+                        >
+                    </div>
+                    <button type="button" id="scrape">
+                        Scrape
+                    </button>
+                </form>
+            </section>
+            <div id="list_container">
+                <h2 id="list_title">Links</h2>
+                <ol id="link_list"></ol>
+            </div>
+        </main>
+    </body>
+</html>
