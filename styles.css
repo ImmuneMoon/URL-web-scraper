@@ -9,11 +9,11 @@ body {
 }
 
 section {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
 }
 
 form {
@@ -66,3 +66,38 @@ button {
     font-weight: 600;
     font-size: large;
 }
+
+#list_container {
+    display: none;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#list_title {
+    width: fit-content;
+    margin: 0 auto 3rem auto;
+    text-decoration: underline;
+}
+
+#link_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+a {
+    color: rgb(143, 212, 255);
+}
+
+a:hover {
+    color: rgb(143, 255, 189);
+}
+
