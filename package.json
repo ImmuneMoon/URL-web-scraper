@@ -2,15 +2,17 @@
   "name": "url-web-scraper",
   "version": "1.0.0",
   "description": "## Table of contents",
-  "main": "script.js",
+  "main": "scrape.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --mode production -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.2.1",
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
