@@ -14,7 +14,7 @@
 Users should be able to:
 
 - Use a form to input a webpage and call a webscraping funtion that displays all URLs on the given webpage
-- View the data rendered from a JSON file on a webpage as a list of links
+- View the data rendered on a webpage as a list of links
 
 ### Links
 
