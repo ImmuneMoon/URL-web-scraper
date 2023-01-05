@@ -27,4 +27,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Alex Page](https://immunemoon.github.io/Portfolio/)
+- Website - [Alex Page (Portfolio)](https://immunemoon.github.io/Portfolio/)
