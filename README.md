@@ -1,30 +1,32 @@
-# AI Time Journal - Internship Task Solution
+# URL Web Scraper
+
+A small browser app that takes a web page address, pulls every URL off that page, and shows them as a list of links. It also produces a JSON object containing the links.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Task](#task)
-  - [Links](#links)
+  - [Features](#features)
 - [Built with](#built-with)
 - [Author](#author)
+
 ## Overview
 
-### Task
+### Features
 
-Users should be able to:
+Users can:
 
-- Use a form to input a webpage and call a webscraping funtion that displays all URLs on the given webpage
-- View the data rendered on a webpage as a list of links
+- Enter a web page address in a form and run the scraper on it
+- See every URL found on that page rendered as a list of links
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Custom JS scripts
-- [Cheerio](https://cheerio.js.org/) - JS Library
+- [Cheerio](https://cheerio.js.org/) - JS library
 - [Axios](https://axios-http.com/) - HTTP client
-- [Webpack](https://webpack.js.org/) - JS Bundler
+- [Webpack](https://webpack.js.org/) - JS bundler
 
 ## Author
 
-- Website - [Fulllion (Portfolio)](https://immunemoon.github.io/Portfolio/)
+- Fulllion - [fulllioncreativeworks.com](https://fulllioncreativeworks.com)
